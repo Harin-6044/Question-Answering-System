@@ -24,6 +24,10 @@
 * Access the Swagger UI at http://localhost:8000/docs to interact with the API.
 * Enter the question and context in the provided fields and click "Try it out" to get the predicted answer.
 
+#### Demo :
+
+https://github.com/Harin-6044/Question-Answering-System/assets/79094361/06dd5f24-ad53-4195-bd52-a834a275bc72
+
 ### FastAPI In Docker :
 
 * <p align = "justify">The "main" contains a python script that demonstrates how to create a Question Answering API using FastAPI and the Hugging Face Transformers library. The API utilizes the BERT model pre-trained and fine-tuned on the SQuAD dataset (bert-large-uncased-whole-word-masking-finetuned-squad) to provide answers based on the given question and context.</p>
@@ -44,3 +48,7 @@
 * Run the Docker container using "docker run image_01".
 * The FastAPI application inside the Docker container will be accessible at http://localhost:8000/answer.
 * Send POST requests with JSON data containing the question and context fields to get the corresponding answer.
+
+#### Demo :
+
+https://github.com/Harin-6044/Question-Answering-System/assets/79094361/109ae0b2-5fa3-4db9-971d-2f0cf0ff7531
